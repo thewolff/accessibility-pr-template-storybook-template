@@ -1,0 +1,14 @@
+# Accessibility PR Checklist
+
+- [ ] Component/story has keyboard support (tab order, enter/space to activate)
+- [ ] Focus states are visible and meet contrast requirements
+- [ ] All interactive elements include accessible names (labels, aria-label, or aria-labelledby)
+- [ ] Images that convey meaning have alt text or proper role
+- [ ] Color contrast meets WCAG AA for normal text (4.5:1) and large text (3:1)
+- [ ] Dynamic content has announcements or live region handling
+- [ ] Storybook story added/updated for the component
+- [ ] Unit / integration tests added where appropriate
+- [ ] Pa11y / axe / Lighthouse checks run and results attached
+- [ ] Manual screen‑reader check recorded (who, what environment, summary)
+
+If any item is not applicable, explain why in the PR description.
